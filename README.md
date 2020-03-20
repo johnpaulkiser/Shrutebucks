@@ -19,28 +19,28 @@ _Since this has no intention to be used as real money, the monetary policy is se
 * Shrutebucks may not be reduced smaller than 1. 
   * _You cannot have 0.5 shrutebucks_
   
-  
-  ## SBCLI
-  _command-line interface Shrutebucks client_
-  
-  All commands start with `sbcli`
-  ```
-  -d "daemon mode"
-  
-  -m <block reward address> "start mining, paying out to submitted address"
-  
-  -cp <ip address> "connect to peer"
-  
-  -get_block <block hash> "return block by block hash"
-  
-  -create_tx "create and submit transaction, is interactive"
-  
-  -get_tx <txid> "returns corresponding transaction"
-  
-  -create_keypair <seed> "returns public key and corresponding private key"
-  
-  -get_balance <pub key hash> "Gets the spendable balance of pub key" 
-  ```
-  
-  
+
+ ## SBCLI
+ _command-line interface Shrutebucks client_
+
+ All commands start with `sbcli`
+ ```
+ -d "daemon mode"
+
+ -m <block reward address> "start mining, paying out to submitted address"
+
+ -cp <ip address> "connect to peer"
+
+ -get_block <block hash> "return block by block hash"
+
+ -create_tx "create and submit transaction, is interactive"
+
+ -get_tx <txid> "returns corresponding transaction"
+
+ -create_keypair <seed> "returns public key and corresponding private key"
+
+ -get_balance <pub key hash> "Gets the spendable balance of pub key" 
+ ```
+
+
   
