@@ -27,9 +27,9 @@ _Since this has no intention to be used as real money, the monetary policy is se
  ```
  -d "daemon mode"
 
- -m <block reward address> "start mining, paying out to submitted address"
+ -mine <block reward address> "start mining, paying out to submitted address"
 
- -cp <ip address> "connect to peer"
+ -add_peer <ip address> "connect to peer"
 
  -get_block <block hash> "return block by block hash"
 
